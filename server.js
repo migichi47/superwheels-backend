@@ -5,22 +5,20 @@ import products from "./data/products.js";
 const app = express();
 app.use(cors());
 
-app.listen("3000", () => {
-  console.log("listening on port 3000");
-});
-
 app.get("/", (req, res) => {
   res.send("This is the root route");
 });
 
 app.get("/api/products/all", (req, res) => {
+  if (!products) return res.sendStatus(404);
+  console.log(products);
+
   res.status(200).json(products);
 });
 
 app.get("/api/products/recommended", (req, res) => {
-
   const recommendedProducts = products.splice(0, 10);
-  res.send(recommendedProducts)
+  res.send(recommendedProducts);
 });
 
 // gets product with id using params
