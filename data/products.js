@@ -119,6 +119,116 @@ const products = [
     description:
       "Chrome bonnet trim suitable for a 2014 Harrier. Adds a clean finishing detail to the front bonnet area and can replace damaged trim.",
   },
+  {
+    id: 11,
+    category: "headlight",
+    make: "Mazda",
+    model: "Atenza",
+    year: 2016,
+    image:
+      "https://pictures-kenya.jijistatic.com/63186269_MTUwMC0xMTI1LTA1NTE2MjIxNzg.webp",
+    price: 28000,
+    description: "Front headlight assembly for Mazda Atenza 2016 model.",
+  },
+  {
+    id: 12,
+    category: "bumper",
+    make: "Toyota",
+    model: "Fielder",
+    year: 2017,
+    image:
+      "https://pictures-kenya.jijistatic.com/76573277_MTYwMC03MzktNmEyZWIyZmVlNg.webp",
+    price: 22000,
+    description: "Front bumper replacement for Toyota Fielder 2017 model.",
+  },
+  {
+    id: 13,
+    category: "windbreaker",
+    make: "Subaru",
+    model: "Forester",
+    year: 2015,
+    image:
+      "https://pictures-kenya.jijistatic.com/75681784_OTgxLTE2MDAtNDdjODBhYmE5Mg.webp",
+    price: 8500,
+    description: "Set of side window windbreakers for Subaru Forester 2015.",
+  },
+  {
+    id: 14,
+    category: "foglight",
+    make: "Nissan",
+    model: "X-Trail",
+    year: 2016,
+    image:
+      "https://pictures-kenya.jijistatic.com/63227835_MTQ3Mi0xMDk5LTMyNTQwZTI3Y2M.webp",
+    price: 9500,
+    description: "Front fog light assembly for Nissan X-Trail 2016 model.",
+  },
+  {
+    id: 15,
+    category: "tailgate",
+    make: "Toyota",
+    model: "Axio",
+    year: 2018,
+    image:
+      "https://pictures-kenya.jijistatic.com/76573071_MTIwMC0xNjAwLTIwZWYyYjFhMDc.webp",
+    price: 45000,
+    description: "Replacement rear tailgate for Toyota Axio 2018 model.",
+  },
+  {
+    id: 16,
+    category: "grille",
+    make: "Mazda",
+    model: "CX-5",
+    year: 2017,
+    image:
+      "https://pictures-kenya.jijistatic.com/64543663_MTUwMC02OTItZmM2ZWFiZmNmZg.webp",
+    price: 18000,
+    description: "Front radiator grille replacement for Mazda CX-5 2017 model.",
+  },
+  {
+    id: 17,
+    category: "fender",
+    make: "Honda",
+    model: "Fit",
+    year: 2016,
+    image:
+      "https://pictures-kenya.jijistatic.com/63288192_Njc1LTE1MDAtZWRiMWU1NDJmZA.webp",
+    price: 16000,
+    description: "Front fender replacement for Honda Fit 2016 model.",
+  },
+  {
+    id: 18,
+    category: "tail-light",
+    make: "Toyota",
+    model: "Premio",
+    year: 2015,
+    image:
+      "https://pictures-kenya.jijistatic.com/62787551_MTUwMC0xMTI1LTNiM2I4NzMyNTQ.webp",
+    price: 14000,
+    description: "Rear tail light assembly for Toyota Premio 2015 model.",
+  },
+  {
+    id: 19,
+    category: "bumper",
+    make: "Nissan",
+    model: "Note",
+    year: 2016,
+    image:
+      "https://pictures-kenya.jijistatic.com/67883873_MzAwLTEzOS04NTc1MmM0MmY2.webp",
+    price: 20000,
+    description: "Replacement front door panel for Nissan Note 2016 model.",
+  },
+  {
+    id: 20,
+    category: "headlight",
+    make: "Subaru",
+    model: "Impreza",
+    year: 2017,
+    image:
+      "https://pictures-kenya.jijistatic.com/63186269_MTUwMC0xMTI1LTA1NTE2MjIxNzg.webp",
+    price: 30000,
+    description: "Front headlight assembly for Subaru Impreza 2017 model.",
+  },
 ];
 
 export default products;
