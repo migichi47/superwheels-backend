@@ -13,8 +13,14 @@ app.get("/", (req, res) => {
   res.send("This is the root route");
 });
 
-app.get("/api/products", (req, res) => {
+app.get("/api/products/all", (req, res) => {
   res.status(200).json(products);
+});
+
+app.get("/api/products/recommended", (req, res) => {
+
+  const recommendedProducts = products.splice(0, 10);
+  res.send(recommendedProducts)
 });
 
 // gets product with id using params
@@ -31,7 +37,7 @@ app.get("/api/product/:id", (req, res) => {
 });
 
 // filters products with category
-app.get("/api/products/query", (req, res) => {
+app.get("/api/products/category", (req, res) => {
   const searchQuery = req.query.category
     .split(" ")
     .join("")
